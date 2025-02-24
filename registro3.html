@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>registro</title>
+    </head>
+    <body>
+        <form>
+        <input 
+        autocomplete="off"
+        autofocus
+        placeholder="email@escola.edu.br"
+        name="email" 
+        pattern=".+@.+\.edu\.\D{2}"
+        type="email"
+        />
+        <input 
+        placeholder="(DD) 99999-9999"
+        name="tel"
+        pattern="\(\d{2}\)\s\d{5}-\d{4}"
+        type="text"
+        required
+        />
+        <button>registrar</button>
+    </form>
+    </body>
+</html>
